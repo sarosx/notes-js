@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 2rem;
+}
+
+html {
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form {
+  padding-top: 2rem;
+  justify-content: center;
+  display: flex;
+  height: 2rem;
+}
+
+.form input {
+  border: none;
+  outline: none;
+  width: 13rem;
+  font-size: 18px;
+  text-indent: 8px;
+  color: black;
+}
+
+.form button {
+  width: 2rem;
+  border: none;
+  outline: none;
+  background-color: #f4f744;
+}
+
+.todo-container {
+  padding-top: 2rem;
+}
+
+.todo-items {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.todo-items button {
+  outline: none;
+  border: none;
+  height: 2rem;
+  width: 2rem;
+}
+
+.todo-item {
+  list-style: none;
+  background-color: white;
+  width: 11rem;
+  display: flex;
+  font-size: 20px;
+  padding-top: 4px;
+  text-indent: 8px;
+}
+
+.confirm-button {
+  background-color: rgb(27, 194, 27);
+}
+
+.delete-button {
+  background-color: rgb(209, 55, 55);
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+@media screen and (min-width: 768px) {
+  .form input {
+    width: 20rem;
+  }
+
+  .todo-item {
+    width: 18rem;
+  }
+}
